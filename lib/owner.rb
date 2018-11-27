@@ -76,9 +76,11 @@ class Owner
       if species == :cats 
         instances.each do |cat|
           cat.mood = "nervous"
+        end
       if species == :dogs 
         instances.each do |dog|
           dog.mood = "nervous"
+        end 
       if species == :fishes 
         instances.each do |fish|
           fish.mood = "happy"
