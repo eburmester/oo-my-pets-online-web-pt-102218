@@ -1,3 +1,7 @@
 class Owner
-  # code goes here
+  attr_accessor
+  
+  def initialize(pet)
+    @pet = pet
+    @pets = 
 end
