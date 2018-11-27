@@ -7,7 +7,8 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
   
-  def say_species(species)
-    puts ""
+  def say_species
+    return "I am a #{species}"
+  end
   
 end
