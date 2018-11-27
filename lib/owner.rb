@@ -80,4 +80,7 @@ class Owner
     end
   end
   
+  def list_pets
+    @pets 
+  end
 end
