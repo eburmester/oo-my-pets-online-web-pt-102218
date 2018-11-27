@@ -9,10 +9,10 @@ class Owner
   end
   
   def self.count
-    @@all.length 
+    @@all.size 
   end 
   
-  def self.reset 
+  def self.reset_all 
     @@all.clear
   end
   
