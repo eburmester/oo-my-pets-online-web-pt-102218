@@ -28,8 +28,8 @@ class Owner
   
   
   
-  def buy_fish
-    
+  def buy_fish(name_of_fish)
+    @pets[:fishes] << 
   end
   
     
