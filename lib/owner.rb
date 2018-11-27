@@ -4,9 +4,7 @@ class Owner
   
   @@all = []
   
-  def self.all 
-    @@all
-  end
+
   
   def self.count
     @@all.size 
@@ -86,4 +84,9 @@ class Owner
     num_fish = @pets[:fishes].size
     return "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s)."
   end
+  
+  def self.all 
+    @@all
+  end
+  
 end
